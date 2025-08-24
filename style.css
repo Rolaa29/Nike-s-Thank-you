@@ -21,7 +21,7 @@ body {
     width: 600px;
     padding: 70px 0;
     /* border: 3px solid #6bdd6b96; */
-    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     border-radius: 3rem;
     height: auto;
     margin-top: 7.5%;
@@ -43,13 +43,13 @@ body {
 }
 
 /* signature */
-.signature  {
+.signature {
     font-style: italic;
     font-size: 16px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
+/* media screen */
 @media (max-width:768px) {
     .card {
         width: 100%;
