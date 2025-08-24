@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* body */
+body {
+    background: linear-gradient(150deg, #ffce74, #8bff8b);
+    height: 100vh;
+}
+
+/* card */
+.card {
+    background-color: #80ff8096;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(12px);
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    padding: 70px 0;
+    /* border: 3px solid #6bdd6b96; */
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    border-radius: 3rem;
+    height: auto;
+    margin-top: 7.5%;
+    animation: slideInUp 2s ease-in-out;
+}
+
+.card h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #f5c367;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* signature */
+.signature  {
+    font-style: italic;
+    font-size: 16px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width:768px) {
+    .card {
+        width: 100%;
+        padding: 50px 0;
+        margin-top: 35%;
+        height: 60vh;
+    }
+
+    .card p {
+        line-height: 1.5;
+    }
+}
